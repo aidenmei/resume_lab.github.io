@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap demo</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<ul id="myTab" class="nav nav-tabs">
+	<li class="active">
+		<a href="#home" data-toggle="tab">
+			 resume
+		</a>
+	</li>
+	<li><a href="#output" data-toggle="tab">Home</a></li>
+	<li class="dropdown">
+		<a href="#" id="myTabDrop1" class="dropdown-toggle" 
+		   data-toggle="dropdown">Sections 
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+			
+			<li><a href="#contact" tabindex="-1" data-toggle="tab">Contact</a></li>
+			<li><a href="#education" tabindex="-1" data-toggle="tab">Education</a></li>
+			<li><a href="#experience" tabindex="-1" data-toggle="tab">Experience</a></li>
+			<li><a href="#project" tabindex="-1" data-toggle="tab">Project</a></li>
+			<li><a href="#activeities" tabindex="-1" data-toggle="tab">Activeities</a></li>
+			<li><a href="#skills" tabindex="-1" data-toggle="tab">Skills</a></li>
+
+		</ul>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade in active" id="home">
+		<p>Welcome to my resume page.</p>
+	</div>
+	<div class="tab-pane fade" id="output">
+		<img border="0" src="./resume.png" alt="resume" >
+	</div>
+	<div class="tab-pane fade" id="contact">
+		<img border="0" src="./contact.png" alt="contact" >
+	</div>
+	<div class="tab-pane fade" id="education">
+		<img border="0" src="./education.png" alt="education" >
+	</div>
+	<div class="tab-pane fade" id="experience">
+		<img border="0" src="./experience.png" alt="experience" >
+	</div>
+	<div class="tab-pane fade" id="project">
+		<img border="0" src="./project.png" alt="project" >
+	</div>
+	<div class="tab-pane fade" id="activeities">
+		<img border="0" src="./activeities.png" alt="activeities" >
+	</div>
+	<div class="tab-pane fade" id="skills">
+		<img border="0" src="./skills.png" alt="skills" >
+	</div>
+</div>
+
+</body>
+</html>
